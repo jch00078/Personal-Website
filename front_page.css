@@ -1,11 +1,51 @@
-body {
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Ubuntu:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-#mainHeader {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: lighter;
+.max-width {
+    max-width: 1900px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+.navbar {
     position: fixed;
-
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: black;
 }
 
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    Color: white;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    Color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+#mainInfo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
