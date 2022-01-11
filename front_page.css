@@ -49,3 +49,12 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
 }
+
+.home {
+    display: flex;
+    background: ;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
